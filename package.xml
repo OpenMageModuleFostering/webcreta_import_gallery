@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>webcreta_import_gallery</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Webcreta Import Gallery Extension Provide ability to upload Gallery Images</summary>
+    <description>Webcreta Import Gallery Extension is very useful to upload multiple gallery images in magento via dataflow import product profile.&#xD;
+&#xD;
+This Extension Support csv file to upload.Also Attached sample csv file to upload gallery images&#xD;
+&#xD;
+After Uploaded file into your magento folder go to system-&gt;Import/Export -&gt; Dataflow - Profiles and select Import All Product</description>
+    <notes>Fixed Not Showing Gallery Images</notes>
+    <authors><author><name>WebCreta</name><user>WebCreta</user><email>webcreta@gmail.com</email></author></authors>
+    <date>2016-04-16</date>
+    <time>07:39:38</time>
+    <contents><target name="magecommunity"><dir name="Webcreta"><dir name="GalleryImport"><dir name="Helper"><file name="Data.php" hash="91c234eecd9062c8d560c12a958e907d"/></dir><dir name="Model"><dir name="Convert"><dir name="Adapter"><file name="Product.php" hash="9aa1e8006e7880c7d43b6a66f2b76469"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="3cd9b365528dd06d90a93caa5f1d81b4"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Webcreta_GalleryImport.xml" hash="7cfe73ecd7936b69d156d08fcd24f4a9"/></dir></target><target name="mage"><dir name="sample-csv"><file name="sample-gallery-product-import.csv" hash="71f2af4cd1589d9c192211522caa2de7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

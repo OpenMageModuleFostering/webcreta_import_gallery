@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webcreta_GalleryImport>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Webcreta_GalleryImport>
+    </modules>
+</config> 
