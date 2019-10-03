@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/webcreta_import_gallery",
+    "name": "OpenMageModuleFostering\/webcreta_import_gallery",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Webcreta Import Gallery Extension Provide ability to upload Gallery Images",
     "authors": [
-    {
-        "name": "WebCreta",
-        "email": "webcreta@gmail.com"
-    }
-],
+        {
+            "name": "WebCreta",
+            "email": "webcreta@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
